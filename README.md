@@ -13,8 +13,8 @@ The project is developed in Python3 and uses the following external libraries:
 
 ## Content
 
-src
-	- streamer.py: Python script that captures data from a Tweeter Stream and stores the data in a local MongoDB database.
+- src
+  - streamer.py: Python script that captures data from a Tweeter Stream and stores the data in a local MongoDB database.
   - graph_builder.py: Python script that fetches data from a local MongoDB database and builds a graphml file with the resulting directed graph with weights, taking replies, quotes and retweets as relations.
 - LICENCE: license file under which this work is released.
 - README.md: this file.
